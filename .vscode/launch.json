@@ -2,6 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "TrainingCluster",
+            "type": "ecl",
+            "request": "launch",
+            "protocol": "http",
+            "serverAddress": "training.us-hpccsystems-dev.azure.lnrsg.io",
+            "port": 8010,
+            "targetCluster": "thor",
+            "rejectUnauthorized": true,
+            "resultLimit": 100,
+            "timeoutSecs": 60,
+            "user": "default_user",
+            "password": ""
+        },
+        {
             "name": "localhost",
             "type": "ecl",
             "request": "launch",
@@ -14,21 +28,7 @@
             "timeoutSecs": 60,
             "user": "xyz_local",
             "password": ""
-        },
-        {
-            "name": "TrainingCluster",
-            "type": "ecl",
-            "request": "launch",
-            "protocol": "http",
-            "serverAddress": "training.us-hpccsystems-dev.azure.lnrsg.io",
-            "port": 8010,
-            "targetCluster": "thor",
-            "rejectUnauthorized": true,
-            "resultLimit": 100,
-            "timeoutSecs": 60,
-            "user": "xyz_cluster",
-            "password": ""
-        }
+        }        
     ]
 }
 

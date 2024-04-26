@@ -2,8 +2,9 @@ IMPORT $;
 //
 Property := $.modProperty.File;
 //
-
-EXPORT CleanProperty := Property($.isCleanFilter);/*
+// Add or remove a / below to quick change the comment section
+//*
+EXPORT CleanProperty := Property($.isCleanFilter);/*/
 //
 CleanProperty := Property($.isCleanFilter);
 OUTPUT(CleanProperty);

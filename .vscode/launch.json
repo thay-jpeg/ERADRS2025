@@ -12,8 +12,8 @@
             "rejectUnauthorized": true,
             "resultLimit": 100,
             "timeoutSecs": 60,
-            "user": "user_2_QsDKGE",
-            "password": "d2bkxrAXeRD9B]mG[jB[(KsE"
+            "user": "user",
+            "password": ""
         },
         {
             "name": "localhost",

@@ -9,7 +9,7 @@
             "serverAddress": "eclwatch.br-training-prod.azure.lnrsg.io",
             "port": 18010,
             "targetCluster": "thor",
-            "rejectUnauthorized": true,
+            "rejectUnauthorized": false,
             "resultLimit": 100,
             "timeoutSecs": 60,
             "user": "user",
